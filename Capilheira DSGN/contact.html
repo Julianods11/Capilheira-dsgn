@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capilheira Design - Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/025266c965.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/LOGO PNG PRETO.png" alt="" width="120px"></a>
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+        
+        <div id="responsiveMenu">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="index.html">Home</a>
+                  <a href="sobre.html">Sobre</a>
+                  <a href="portfolio.html">Portfólio</a>
+                  <a href="contact.html">Contato</a>
+                </div>
+              </div>
+              
+              <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+              
+        </div>
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.height = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.height = "0%";
+            }
+        </script>
+        
+    </header>
+
+
+<section id="contactSec">
+    <div id="contact">
+
+        <div id="enter">
+        <h1 class="title">Fale Conosco</h1>
+        <p class="text">Estamos aqui para te ajudar <br>
+            e será uma grande honra poder <br>
+             fazer isso.</p>
+
+        <p>
+            <ul id="listRedes">
+                <li class="list"><a href="https://instagram.com/capilheiradsgn?igshid=YmMyMTA2M2Y=" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="list"><a href="https://www.behance.net/eduardadasilv2" target="_blank" title="Behance"><i class="fa-brands fa-behance"></i></a></li>
+                <li class="list"><a href="https://contate.me/capilheiradsgn" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li class="list"><a href="https://dribbble.com/Capilheira" target="_blank" title="Dribbblee"><i class="fa-brands fa-dribbble"></i></a></li>
+            </ul>
+        </p>
+
+        </div>
+
+        <div id="form" class="formResp">
+
+            <form action="https://submit-form.com/8pALTww7" method="post">                
+                
+                <label for="name">Nome:</label>
+                <input type="text" name="Nome:" id="name" placeholder="Digite seu Nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="Email:" id="email" placeholder="Digite seu e-mail" required>
+
+                <label for="intagram">Instagram:</label>
+                <input type="text" name="instagram:" id="insta" placeholder="Digite o @ do seu Instagram">
+
+                <label for="mensagem">Conte-nos um pouco sobre a sua ideia ou problema:</label>
+                <textarea name="mensagem" id="Conte-nos um pouco sobre a sua ideia ou problema:" cols="30" rows="10" required></textarea>
+                
+                <div id="positionButton">
+                    <button type="submit" id="button" class="buttonResp">Enviar</button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <div id="direitos">
+        <p class="text">&copy;Todos os Direitos Reservados Capilheiradsgn</p>
+    </div>
+
+    <div class="redes">
+        <ul class="listRedes">
+            <li class="list"><a href="https://instagram.com/capilheiradsgn?igshid=YmMyMTA2M2Y=" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="list"><a href="https://www.behance.net/eduardadasilv2" target="_blank" title="Behance"><i class="fa-brands fa-behance"></i></a></li>
+            <li class="list"><a href="https://contate.me/capilheiradsgn" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li class="list"><a href="https://dribbble.com/Capilheira" target="_blank" title="Dribbblee"><i class="fa-brands fa-dribbble"></i></a></li>
+        </ul>
+    </div>
+</footer>
